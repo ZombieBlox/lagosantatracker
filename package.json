@@ -1,0 +1,16 @@
+{
+  "name": "santatrackerproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon ."
+  },
+  "author": "Lago",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.0",
+    "html": "^1.0.0",
+    "nodemon": "^3.1.7"
+  }
+}

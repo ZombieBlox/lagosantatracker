@@ -1,0 +1,36 @@
+/* COUNTDOWN */
+
+.container {
+    padding-top: 50px !important;
+}
+
+.countdown {
+    background-color: red;
+    color: white; 
+
+    padding: 10px; 
+
+    border-radius: 10px; 
+
+    font-size: 30px; 
+
+    display:inline-flex;
+
+    font-weight: bold;
+
+    height: 30px;
+}
+
+header {
+    position: fixed;
+    height: auto;
+    width: calc(100% - 20px);
+
+    display: flex;
+    justify-content: space-between;
+
+    z-index: 10000000000000000000000000000000000000000000000000000000000000;
+
+    margin-left: 10px;
+    margin-right: 10px;
+}

@@ -1,0 +1,91 @@
+body, html {
+    margin: 0px;
+    padding: 0px;
+
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+}
+
+/* INDEX */
+
+.map-part {
+    background-color: rgb(255, 255, 255);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+#map {
+    width: calc(100% - 60px);
+    height: calc(100% - 30px);
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+
+.scene-part {
+    width: 100%;
+    height: 100%;
+}
+
+.round-button, .round-button * {
+    width: 50px;
+    height: 50px;
+
+    border-radius: 1000px;
+
+    background-color: rgb(0, 202, 0);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.round-button *, .round-button * * {
+    width: 100%;
+    height: 100%;
+    border: none;
+    cursor: pointer; 
+}
+
+/* MENU */
+
+.menu-closed .menu {
+    opacity: 0;
+    width: 0; 
+    height: 0; 
+    background: rgb(0, 107, 128);
+    transition: all 0.3s;
+}
+.menu-open .menu {
+    display: flex; 
+    width: 100%; 
+    height: 100%;  
+    background: green;
+    transition: all 0.3s;
+    opacity: 1;
+}
+
+.menu-container {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    position: fixed;
+    pointer-events: none;
+}
+
+.menu-closed {
+    opacity: 1;
+}
+.menu-open {
+    opacity: 1;
+}
